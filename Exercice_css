@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>Exercice CSS</title>
+	<meta charset="utf-8">
+	<meta name="" content="">
+	<!-- <link rel="stylesheet" type="text/css" href="Exercice_css.css"> -->
+	 <style type="text/css">
+	 	
+
+	.myBoite{
+	width: 200px;
+	min-height: 200px;
+	border: solid 5px pink;
+	border-radius: 2px;
+	padding: 10px;
+	overflow: auto;
+	text-align: center;
+	text-indent: 10px;
+	line-height: 2;
+
+	}
+	.myTextDec{
+		text-decoration: line-through;
+		color: aqua;
+		text-decoration-color: black;
+		text-transform: uppercase;
+		text-shadow: 3px 2px #C0C0C0;
+
+	}
+	.Shadow{
+		text-shadow: 3px 6px lightgrey;
+	}
+	 /*.fab{*/
+		/*height: 5px;*/
+		/*width: 5px;*/
+	/*}*/
+
+	 </style> 
+	</head>
+<body>
+	
+	<div class="myBoite">
+		<span class="myTextDec">Les boites</span><br><br>
+		<span class="myTextDec">Content</span> - Le contenu de la boîte, où le texte et les images apparaissent<br><br>
+		<span class="myTextDec">Padding</span> - Efface une zone autour du contenu. Le rembourrage est transparent<br><br>
+		<span class="myTextDec">Border</span> - Une bordure qui fait le tour du rembourrage et du contenu<br><br>
+		<span class="myTextDec">Margin</span> -  Efface une zone en dehors de la frontière. La marge est transparente<br><br>
+	</div>
+		<h1 class="Shadow">	Some Text<br></h1>
+		L'exemple spécifie la position de l'ombre horizontale (3 pixels), la position de l'ombre verticale (2 pixels) et la couleur de l'ombre (grise)<br>
+		<h3><span class="Shadow">Inline:</span></h3> ne démarre pas sur une nouvelle ligne et ne prend que la largeur nécessaire.
+		<h3><span class="Shadow">Display None:</span></h3> est couramment utilisé avec JavaScript pour masquer et afficher les éléments sans les supprimer ni les recréer.
+		<h3><span class="Shadow"> WAMP server (mamp or Xampp)</span></h3> stands for Windows Apache MySql PHP. The browser will mpt read a PHP file, only on the browser we can access that file
+		<h3 class="Shadow">La propriété position</h3>
+		<h3 class="Shadow">Les Icones</h3>
+		<i class="fab fa-4x fa-angrycreative"></i>
+		<i class="fab fa-apple" style="font-size: 48px; color: hotpink;"></i>
+		<i class="fab fa-4x fa-github"></i>
+		<i class="fas fa-4x fa-jedi"></i>
+		<i class="fas fa-4x fa-laptop-code"></i>
+		<i class="fa fa-4x fa-code"></i>
+		<i class="fa fa-4x fa-code-fork"></i>
+		<!-- Pour l'examen final, important de connaitre les FORMS, TABLES, et les blocs de code pour les faire.   -->
+
+
+</body>
+</html>
