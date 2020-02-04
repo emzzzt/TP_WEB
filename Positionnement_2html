@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Position CSS</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+	<body>
+		<style>
+			.fixed{
+				border: 1px solid blue;
+				padding: 10px;
+				bottom: 0px;
+				right: 0px;
+				position: fixed;
+			}
+			.sticky{
+				border: 1px solid black;
+				padding: 10px;
+				top: 10px;
+				position: sticky;
+			}
+			.page{
+				height: 1000px;
+			}
+			
+		</style>
+
+			<div class="fixed">
+					Positionnement Fixed
+			</div>
+			<div class="page">
+				<h1>Positionnement</h1>
+				<h2>Positionnement</h2>
+				<h3>Positionnement</h3>
+				<h4>Positionnement</h4>
+				<h5>Positionnement</h5>
+				<h6>Positionnement</h6>
+				<div class="sticky">Position Sticky</div>
+			</div>
+		</body>
+</html>
