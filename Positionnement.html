@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Position CSS</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+		<body>
+		<style>
+			.static{
+				border: 1px solid green;
+				position: static;
+				padding: 5px;
+				left: 100px;
+				top: 100px;
+			}
+			.relative{
+				border: 1px solid blue;
+				position: relative;
+				padding: 5px;
+				left: 100px;
+				top: 0px;
+			}
+			.absolute{
+				border: 1px solid red;
+				position: absolute;
+				background: white;
+				padding: 5px;
+				top: 0px;
+			}
+			.parent{
+				border: 1px solid black;
+				background: #C0C0C0;
+				padding: 5px;
+				position: relative;
+			}
+		</style>
+			<div class="static">
+				Positionnement statique
+			</div>
+			<div class="relative">
+				Positionnement relative
+			</div>
+			<div class="parent">
+				 Parent     <!-- div imbriquée -->
+				<div class="absolute">
+					Positionnement absolute
+				</div>
+			</div>
+			</body>
+</html>
