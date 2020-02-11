@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ancrage</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comptaible" content="">
+	<style>
+		.triche{
+			height: 500px;
+			background-color: aquamarine;
+		}
+		.triche3{
+			height: 1000px;
+			background-color: aquamarine;
+		}
+	</style>
+</head>
+<body>
+	<a href="#Triche1">Triche 1</a><br>
+	<a href="#Triche2">Triche 2</a><br>
+	<a href="#Triche3">Triche 3</a><br>
+
+	<div id="Triche1"> Triche 1</div>
+	<div class="triche"> </div>
+	<div id="Triche3"> Triche 2</div>
+	<div class="triche"> </div>
+	<div id="Triche3"> Triche 3</div>
+	<div class="triche3"> </div>
+</body>
+</html>
