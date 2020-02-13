@@ -1,0 +1,9 @@
+Open VPN dl
+
+
+
+
+FileZilla dl
+fichier -> gestionnaire de sites -> nouveau site -> mettre le nom que l'on veut -> protocole secured FTP (SSH file transfer protocol)
+-> hote : webdev.cmaisonneuve.qc.ca (port 22 since it's SFTP) -> Creds from login  -> ok.
+click on the file name you created -> www ->
